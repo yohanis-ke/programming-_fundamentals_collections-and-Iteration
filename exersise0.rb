@@ -185,4 +185,13 @@ one_fifty2=[*1...50]*3
 #
 # year_exp = [250, 7.95, 30.95, 16.50]
 #
-# puts sum(year_exp)
+# puts sum(year_exp)\
+#************************Exercise 9 *******************
+#===========9.1=============
+# i=0;
+#   while i < grocery_list.length
+#     puts "*#{grocery_list[i]}"
+#     i = i + 1
+#   end
+
+# puts grocery_list "#{*}"
