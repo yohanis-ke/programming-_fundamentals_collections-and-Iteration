@@ -188,10 +188,48 @@ one_fifty2=[*1...50]*3
 # puts sum(year_exp)\
 #************************Exercise 9 *******************
 #===========9.1=============
-# i=0;
-#   while i < grocery_list.length
-#     puts "*#{grocery_list[i]}"
-#     i = i + 1
-#   end
 
-# puts grocery_list "#{*}"
+#This method is to display array by adding * in the front
+def display(array)
+i=0;
+  while i < array.length
+    puts "*#{array[i]}"
+    i = i + 1
+  end
+end
+
+# This method is to check caroot is in the list or not
+
+# def iscaroot(array)
+#   i=0
+#
+#   while (i < array.length)
+#       if array[i]=="carrot"
+#         carrot= true
+#       else
+#     end
+#        i = i + 1
+#   end
+#   return i
+# end
+
+#===========9.1=============
+# grocery_list << "rice"
+# display(grocery_list)
+#===========9.2=============
+# puts grocery_list.length
+#===========9.3=============
+# i=iscarrot(grocery_list)
+# if i==grocery_list
+#   puts "You need to pick up bananas"
+# else
+# puts "You don't need to pick up bananas today"
+# end
+#===========9.4=============
+# Display the second item from the array list
+# puts grocery_list[1]
+#===========9.5=============
+# display the sorted list with astrix in front
+# display(grocery_list.sort)
+
+#===========9.6==========
